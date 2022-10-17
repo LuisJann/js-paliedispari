@@ -6,7 +6,7 @@ const userName = prompt("Inserisci una parola che vuoi controllare").toLowerCase
 
 /**
  * Description
- * @param {string} lowerUserName
+ * @param {string} UserName
  * @returns {string}
  */
 
@@ -15,10 +15,10 @@ function checkPalindrome(userName) {
     const arrayName = userName.split("");
     console.log(arrayName);
 //INVERTIAMO LE LETTERE DENTRO L'ARRAY    
-    const reverseArreyName = arrayName.reverse("");
-    console.log(reverseArreyName);
+    const reverseArrayName = arrayName.reverse("");
+    console.log(reverseArrayName);
 //RICONVERTIAMO L'ARRAY IN STRINGA    
-    const reverseName = reverseArreyName.join("");
+    const reverseName = reverseArrayName.join("");
     console.log(reverseName);
 
 //CONFRONTIAMO GLI OPPOSTI PER VEDERE SE COINCIDONO     
